@@ -1,0 +1,47 @@
+@import "./reset.css";
+@font-face{
+    font-family: 'gotham regular';
+    src: url('../font/Gotham\ Regular.otf');
+}
+*{
+    font-family: 'gotham regular';
+}
+
+#section-main{
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-image: url('../img/background.jpg');
+}
+#photo img{
+    border-radius: 50%;
+    width:150px;
+}
+#list li{
+    border: 2px solid white;
+    padding: 10px;
+    width: 80vw;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+#list a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#list li:hover{
+    background-color: white;
+    transform: scale(1.01);
+    box-shadow: 1px 1px white;
+}
+#list a:hover{
+    color: black;
+}
